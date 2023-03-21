@@ -10,6 +10,6 @@ function Notif(text)
     DrawNotification(false, false)
 end
 
--- function Notif(text)
---     exports['okokNotify']:Alert("Player ID: "..Player_Id, text, 3000, 'warning')
--- end
+function Notif(text)
+    exports['okokNotify']:Alert("Player ID: "..Player_Id, text, 3000, 'warning')
+end
